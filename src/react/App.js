@@ -9,10 +9,10 @@ import { addTodo, deleteTodo, handleCompleted } from "../redux/actions/todo-acti
 const App = (props) => {
     // const [todos, setTodos] = useState([]);
 
-    const addTodo = (todo) =>{
-        let pre = todo.substr(0, 2);
-        setTodos([...todos, {todo: todo, id: generateKey(pre), isCompleted: false}]);
-    }
+    // const addTodo = (todo) =>{
+    //     let pre = todo.substr(0, 2);
+    //     setTodos([...todos, {todo: todo, id: generateKey(pre), isCompleted: false}]);
+    // }
 
     // const deleteTodo = (key) =>{
     //     let newTodos = todos.filter(todo => todo.id != key);
