@@ -1,6 +1,5 @@
 import * as types from '../actions/action-types';
-import generateKey from '../helpers/generateKey.js';
-// import generateKey from '.../react/helpers/generateKey.js';
+import generateKey from '../../helpers/generateKey.js';
 
 const initialState = {
   todos: [{todo: "fukkkk", id: 14, isCompleted: false}]
